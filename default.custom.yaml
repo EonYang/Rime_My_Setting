@@ -1,0 +1,20 @@
+# default.custom.yaml, 全局生效
+# 添加小鹤双拼到方案选单
+patch:
+  schema_list:
+    - schema: double_pinyin_flypy   # 新增小鹤双拼
+
+  ascii_composer/switch_key:
+    Caps_Lock: clear
+    Control_L: commit_code
+    Control_R: noop
+    Eisu_toggle: clear
+    Shift_L: noop
+    Shift_R: noop
+
+
+
+
+
+
+

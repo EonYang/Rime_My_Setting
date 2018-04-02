@@ -1,0 +1,43 @@
+patch:
+  style:
+    color_scheme: native
+    horizontal: false
+    inline_preedit: true
+    corner_radius: 4
+    border_height: 0
+    border_width: 0
+    line_spacing: 1
+    spacing: 5  # space between preedit and candidates in non-inline mode
+    #candidate_format: '%c. %@ '
+    font_face: 'Lucida Grande'  # supporting soft cursor '›'
+    font_point: 19
+    #label_font_face: 'STHeitiTC-Medium'
+    #label_font_point: 18
+
+  app_options:
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-3:
+      ascii_mode: true
+    com.blacktree.Quicksilver:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
+    #com.apple.dt.Xcode:
+    #  ascii_mode: true
+    #com.barebones.textwrangler:
+    #  ascii_mode: true
+    #com.macromates.TextMate.preview:
+    #  ascii_mode: true
+    #com.sublimetext.2:
+    #  ascii_mode: true
+    #org.gnu.Aquamacs:
+    #  ascii_mode: true
+    #org.gnu.Emacs:
+    #  ascii_mode: true

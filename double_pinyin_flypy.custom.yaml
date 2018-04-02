@@ -1,0 +1,27 @@
+# double_pinyin_flypy.custom.yaml, 只对小鹤双拼生效
+patch:
+  translator/preedit_format: {}     # 输入双拼码的时候不转化为全拼码
+  "switches/@0/reset": 1 # 
+  punctuator/full_shape:
+    # "`" : {commit: "`"}
+    "~" : "~"
+    "." : "。"
+    "," : "，"
+  punctuator/half_shape:
+    # "`" : {commit: "`"}
+    "~" : "~"
+  
+  reverse_lookup:
+    comment_format:
+      - "xform/([nl])v/$1ü/"
+    dictionary: stroke
+    enable_completion: false
+    preedit_format:
+      - "xlit/hspnz/一丨丿丶乙/"
+    prefix: " "
+    suffix: "'"
+    tips: "〔筆畫〕"
+
+
+  recognizer/patterns:
+    reverse_lookup: "[a-z]*'?$"
