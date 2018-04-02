@@ -7,9 +7,11 @@ patch:
     "~" : "~"
     "." : "。"
     "," : "，"
+    "*": "*"
   punctuator/half_shape:
     # "`" : {commit: "`"}
     "~" : "~"
+    "*": "*"
   
   reverse_lookup:
     comment_format:

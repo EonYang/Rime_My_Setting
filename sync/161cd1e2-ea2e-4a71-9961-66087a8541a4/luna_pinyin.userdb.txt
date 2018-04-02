@@ -1897,7 +1897,6 @@ wang su 	網速	c=1 d=1 t=4565
 wang xian 	網線	c=1 d=1 t=437
 wang ye 	網頁	c=1 d=1 t=5012
 wang zhan 	網站	c=6 d=1.0011 t=4997
-wei 	爲	c=33 d=1.00001 t=6416
 wei chu 	未出	c=1 d=1 t=4980
 wei le 	爲了	c=3 d=1 t=5962
 wei mao 	爲毛	c=1 d=1 t=3998
