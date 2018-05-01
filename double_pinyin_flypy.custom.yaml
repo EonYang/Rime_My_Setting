@@ -1,5 +1,6 @@
 # double_pinyin_flypy.custom.yaml, 只对小鹤双拼生效
 patch:
+  "translator/dictionary": luna_pinyin.extended
   translator/preedit_format: {}     # 输入双拼码的时候不转化为全拼码
   "switches/@0/reset": 1 # 
   punctuator/full_shape:
@@ -8,10 +9,12 @@ patch:
     "." : "。"
     "," : "，"
     "*": "*"
+    "/": "/"
   punctuator/half_shape:
     # "`" : {commit: "`"}
     "~" : "~"
     "*": "*"
+    "/": "/"
   
   reverse_lookup:
     comment_format:

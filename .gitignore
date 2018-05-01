@@ -23,3 +23,11 @@ stroke.reverse.bin
 stroke.schema.yaml
 stroke.table.bin
 symbols.yaml
+hepy.dict.yaml
+hepy.prism.bin
+hepy.reverse.bin
+hepy.schema.yaml
+hepy.table.bin
+hepy.userdb/
+luna_pinyin.cn_en.dict.yaml
+luna_pinyin.custom.yaml
