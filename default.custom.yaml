@@ -2,15 +2,16 @@
 # 添加小鹤双拼到方案选单
 patch:
   schema_list:
-    - schema: double_pinyin_flypy   # 新增小鹤双拼
-    # - schema: hepy
+    - schema: hepy
+    - schema: double_pinyin_flypy   # 
 
+  ascii_composer/good_old_caps_lock: false
   ascii_composer/switch_key:
-    Caps_Lock: noop
+    Caps_Lock: commit_code
     Control_L: noop
     Control_R: noop
     Eisu_toggle: commit_code
-    Shift_L: commit_code
+    Shift_L: noop
     Shift_R: noop
 
 

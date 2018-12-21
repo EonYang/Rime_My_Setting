@@ -1,4 +1,6 @@
 patch:
+  show_notifications_when: always
+  
   style:
     color_scheme: native
     horizontal: false
@@ -15,6 +17,8 @@ patch:
     #label_font_point: 18
 
   app_options:
+    com.google.Chrome:
+      ascii_mode: true
     com.alfredapp.Alfred:
       ascii_mode: true
     com.runningwithcrayons.Alfred-3:
